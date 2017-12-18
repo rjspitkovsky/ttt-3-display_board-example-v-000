@@ -1,10 +1,9 @@
 def display_board
-    cell = "   "
-    row = [cell, "|", cell, "|", cell]
-    dashes = "-----------"
-    print row
-    print dashes
-    print row
-    print dashes
-    print row 
+    line = "   " + "|" + "   " + "|" + "   "
+    dashes = "-----------" 
+    puts line 
+    puts dashes
+    puts line 
+    puts dashes 
+    puts line 
 end
